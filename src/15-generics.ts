@@ -1,4 +1,4 @@
-import { Dog } from "./8-herencia";
+import { Dog } from "./08-inheritance";
 
 function getValue<T>(value: T) { //*Usar T es una convención para tus propios tipados
   return value;
