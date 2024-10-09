@@ -1,6 +1,7 @@
-import { ProductMemoryService } from "./services/product-memory.service";
 
-const productService = new ProductMemoryService();
+import { ProductHttpService } from "./services/product-http.service";
+
+const productService = new ProductHttpService();
 
 productService.create({
     categoryId: 1,
